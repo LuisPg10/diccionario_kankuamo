@@ -1,0 +1,18 @@
+h1 {
+  color: black;
+  text-align: center;
+  border: 1px solid black;
+  margin: auto 25px 5px 25px;
+  background: white;
+  font-weight: bold;
+}
+
+h2 {
+  text-align: center;
+  padding: 1.2%;
+}
+
+.row {
+  padding: 10px 10px 10px 25px;
+  justify-content: left;
+}
