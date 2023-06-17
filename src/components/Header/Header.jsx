@@ -23,7 +23,7 @@ export default function Header() {
             placeholder="Digita Lo Que Quieres Buscar"
             aria-label="Digita Lo Que Quieres Buscar"
           />
-          <button className="btn btn-outline-success-search" type="submit">
+          <button className="btn btn-outline-success-search">
             Buscar
           </button>
         </form>
