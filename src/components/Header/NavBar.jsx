@@ -13,27 +13,27 @@ export default function NavBar() {
     <nav class="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <Link className=" animate-text nav-link active" to="/">
+          <Link className=" animate-text nav-link active" to="/diccionario_kankuamo">
             Inicio
           </Link>
         </li>
         <li className="nav-item">
-          <Link className=" animate-text nav-link active" to="/Animales">
+          <Link className=" animate-text nav-link active" to="/diccionario_kankuamo/animals">
             Animales
           </Link>
         </li>
         <li className="nav-item">
-          <Link className=" animate-text nav-link active" to="/Colores">
+          <Link className=" animate-text nav-link active" to="/diccionario_kankuamo/colors">
             Colores
           </Link>
         </li>
         <li className="nav-item">
-          <Link className=" animate-text nav-link active" to="/Numeros">
+          <Link className=" animate-text nav-link active" to="/diccionario_kankuamo/numbers">
             Números
           </Link>
         </li>
         <li className="nav-item">
-          <Link className=" animate-text nav-link active" to="/Cuerpo">
+          <Link className=" animate-text nav-link active" to="/diccionario_kankuamo/body">
             Partes del Cuerpo
           </Link>
         </li>

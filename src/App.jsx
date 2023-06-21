@@ -18,11 +18,11 @@ export default function App() {
       <Header />
       <Routes>
         {/* Cada una de las rutas a cada Vista del Programa */}
-        <Route path="/" element={<Main />}></Route>
-        <Route path="/Animales" element={<Animal />}></Route>
-        <Route path="/Colores" element={<Color />}></Route>
-        <Route path="/Numeros" element={<Number />}></Route>
-        <Route path="/Cuerpo" element={<Body />}></Route>
+        <Route path="/diccionario_kankuamo" element={<Main />}></Route>
+        <Route path="/diccionario_kankuamo/animals" element={<Animal />}></Route>
+        <Route path="/diccionario_kankuamo/colors" element={<Color />}></Route>
+        <Route path="/diccionario_kankuamo/numbers" element={<Number />}></Route>
+        <Route path="/diccionario_kankuamo/body" element={<Body />}></Route>
       </Routes>
       <Footer />
     </div>
