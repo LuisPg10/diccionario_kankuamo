@@ -1,6 +1,8 @@
 import "./View.css";
 import Card from "../Card/Card";
 import number from "../../images/numbers/numeros";
+import kankuamoNumbers from "../../sounds/kankuamo/numbers/soundNumbers";
+import englishNumbers from "../../sounds/english/numbers/soundNumbers";
 
 export default function Number() {
   let cards = [];
@@ -48,7 +50,9 @@ export default function Number() {
         spanish={spanishInfo[i]}
         kankuamo={kankuamaInfo[i]}
         english={englishInfo[i]}
-        styleInfo={{visibility: "visible", position: "between"}}
+        styleInfo={{ visibility: "visible", position: "between" }}
+        soundKankuamo={kankuamoNumbers()[i]}
+        soundEnglish={englishNumbers()[i]}
       />
     );
   }

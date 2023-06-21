@@ -1,6 +1,8 @@
 import Card from "../Card/Card";
 import "./View.css";
 import body from "../../images/body/body";
+import bodyKankuamo from "../../sounds/kankuamo/body/soundBody";
+import bodyEnglish from "../../sounds/english/body/soundBody";
 
 export default function Color() {
   let cards = [];
@@ -102,6 +104,8 @@ export default function Color() {
         kankuamo={kankuamoInfo[i]}
         english={englishInfo[i]}
         styleInfo={{ visibility: "visible", position: "between" }}
+        soundKankuamo={bodyKankuamo()[i]}
+        soundEnglish={bodyEnglish()[i]}
       />
     );
   }

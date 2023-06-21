@@ -1,9 +1,9 @@
 import "./View.css";
 import Card from "../Card/Card";
-import spider from "../../images/animals/araña.jpg";
-import blue from "../../images/colors/azul.jpg";
-import number from "../../images/numbers/diez.jpg";
-import body from "../../images/body/craneo.png"
+import spider from "../../images/Animals.png";
+import blue from "../../images/Colors.png";
+import number from "../../images/numbers.png";
+import body from "../../images/bodyparts.png";
 
 export default function Main() {
   return (
