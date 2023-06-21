@@ -27,7 +27,7 @@ import hormiga_negra from "./hormiga culona.jpg";
 
 export default function Animals() {
   return [
-    grillo,
+    //grillo,
     avispa,
     cerdo,
     perro,
@@ -50,7 +50,6 @@ export default function Animals() {
     gato,
     pulga,
     zorra,
-    nieque,
     luciernaga,
     raton,
     mariposa,

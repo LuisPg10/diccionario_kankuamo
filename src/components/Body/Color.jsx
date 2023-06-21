@@ -1,6 +1,8 @@
 import Card from "../Card/Card";
 import "./View.css";
-import Images from "../../images/colors/colors.js"
+import Images from "../../images/colors/colors.js";
+import kankuamoColors from "../../sounds/kankuamo/colors/soundColors";
+import englishColors from "../../sounds/english/colors/soundColors";
 
 export default function Color() {
   let cards = [];
@@ -44,6 +46,8 @@ export default function Color() {
         kankuamo={kankuamoInfo[i]}
         english={englishInfo[i]}
         styleInfo={{ visibility: "visible", position: "between" }}
+        soundKankuamo={kankuamoColors()[i]}
+        soundEnglish={englishColors()[i]}
       />
     );
   }

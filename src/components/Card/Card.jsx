@@ -1,6 +1,14 @@
 import "./Card.css";
 
-export default function Card({ data, spanish, english, kankuamo, styleInfo }) {
+export default function Card({
+  data,
+  spanish,
+  english,
+  kankuamo,
+  styleInfo,
+  soundKankuamo,
+  soundEnglish,
+}) {
   return (
     <div className="card">
       {/* Imagen de Administrador */}
@@ -20,6 +28,7 @@ export default function Card({ data, spanish, english, kankuamo, styleInfo }) {
             type="button"
             className="btn btn-language"
             style={{ visibility: styleInfo.visibility }}
+            onMouseDown={() => soundKankuamo.play()}
           >
             {kankuamo}
           </button>
@@ -27,6 +36,7 @@ export default function Card({ data, spanish, english, kankuamo, styleInfo }) {
             type="button"
             className="btn btn-language"
             style={{ visibility: styleInfo.visibility }}
+            onMouseDown={() => soundEnglish.play()}
           >
             {english}
           </button>

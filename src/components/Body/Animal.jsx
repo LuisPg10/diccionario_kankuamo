@@ -1,11 +1,13 @@
 import Card from "../Card/Card";
 import "./View.css";
 import Animals from "../../images/animals/animals";
+import animalsKankuamo from "../../sounds/kankuamo/animals/soundAnimals";
+import animalsEnglish from "../../sounds/english/animals/soundAnimals";
 
 export default function Color() {
   let cards = [];
   const spanishInfo = [
-    "Grillo",
+    //"Grillo",
     "Avispa",
     "Cerdo",
     "Perro",
@@ -28,13 +30,12 @@ export default function Color() {
     "Gato",
     "Pulga",
     "Zorra",
-    "Ñeque",
     "Luciernaga",
     "Ratón",
     "Mariposa",
   ];
   const kankuamoInfo = [
-    "Bokokono",
+    //"Bokokono",
     "Bunolina",
     "Chimu",
     "Chörma",
@@ -57,13 +58,12 @@ export default function Color() {
     "Misi",
     "Möechcjl",
     "Sarma",
-    "Manchangala",
     "Sinkábe",
     "Tuhkua",
     "Ulsakúbi",
   ];
   const englishInfo = [
-    "Cricket",
+    //"Cricket",
     "Wasp",
     "Pig",
     "Dog",
@@ -73,7 +73,7 @@ export default function Color() {
     "Bat",
     "Scorpion",
     "Hen",
-    "Gongo",
+    "Black ant",
     "Guartinaja",
     "Buzzard",
     "Worn",
@@ -81,18 +81,17 @@ export default function Color() {
     "Deer",
     "Squirrel",
     "Lizard",
-    "Ñeque",
+    "Strength",
     "Spider",
     "Cat",
     "Flea",
     "Fox",
-    "Ñeque",
     "Firefly",
     "Mouse",
     "Butterfly",
   ];
 
-  for (let i = 0; i < 27; i++) {
+  for (let i = 0; i < 24; i++) {
     cards.push(
       <Card
         data={Animals()[i]}
@@ -100,6 +99,8 @@ export default function Color() {
         kankuamo={kankuamoInfo[i]}
         english={englishInfo[i]}
         styleInfo={{ visibility: "visible", position: "between" }}
+        soundKankuamo={animalsKankuamo()[i]}
+        soundEnglish={animalsEnglish()[i]}
       />
     );
   }

@@ -69,7 +69,7 @@ export default function Color() {
     "Skull",
     "Head",
     "Leg",
-    "Nuca",
+    "Nape",
     "Hand",
     "Nail",
     "Hair",
