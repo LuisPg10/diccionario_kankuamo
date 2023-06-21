@@ -3,11 +3,7 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 
 import {
-  BrowserRouter as Router,
-  Switch,
   Route,
-  Link,
-  NavLink,
   Routes,
 } from "react-router-dom";
 

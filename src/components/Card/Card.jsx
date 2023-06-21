@@ -6,6 +6,7 @@ export default function Card({
   english,
   kankuamo,
   styleInfo,
+  onClick,
   soundKankuamo,
   soundEnglish,
 }) {
@@ -27,7 +28,8 @@ export default function Card({
           <button
             type="button"
             className="btn btn-language"
-            style={{ visibility: styleInfo.visibility }}
+            style={{ visibility: styleInfo.visibilityKankuamo }}
+            onClick={onClick}
             onMouseDown={() => soundKankuamo.play()}
           >
             {kankuamo}
@@ -35,8 +37,10 @@ export default function Card({
           <button
             type="button"
             className="btn btn-language"
-            style={{ visibility: styleInfo.visibility }}
+            style={{ visibility: styleInfo.visibilityEnglish }}
+            onClick={onClick}
             onMouseDown={() => soundEnglish.play()}
+
           >
             {english}
           </button>
