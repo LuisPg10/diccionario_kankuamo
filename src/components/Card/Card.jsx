@@ -25,24 +25,29 @@ export default function Card({
 
         {/* Botones Idioma*/}
         <div className="d-grid gap-2 mt-2">
-          <button
-            type="button"
-            className="btn btn-language"
-            style={{ visibility: styleInfo.visibilityKankuamo }}
-            onClick={onClick}
-            onMouseDown={() => soundKankuamo.play()}
-          >
-            {kankuamo}
-          </button>
-          <button
-            type="button"
-            className="btn btn-language"
-            style={{ visibility: styleInfo.visibilityEnglish }}
-            onClick={onClick}
-            onMouseDown={() => soundEnglish.play()}
-          >
-            {english}
-          </button>
+          {soundKankuamo && (
+            <button
+              type="button"
+              className="btn btn-language"
+              style={{ visibility: styleInfo.visibilityKankuamo }}
+              onClick={onClick}
+              onMouseDown={() => soundKankuamo.play()}
+            >
+              {kankuamo}
+            </button>
+          )}
+
+          {soundEnglish && (
+            <button
+              type="button"
+              className="btn btn-language"
+              style={{ visibility: styleInfo.visibilityEnglish }}
+              onClick={onClick}
+              onMouseDown={() => soundEnglish.play()}
+            >
+              {english}
+            </button>
+          )}
         </div>
       </div>
     </div>
