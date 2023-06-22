@@ -4,7 +4,7 @@ export default function Footer() {
     <footer>
       <p>
         Created By <br />
-        Junior Rodriguez, Luis Pinto.
+        Junior Rodriguez, Luis Pinto Ⓡ
       </p>
     </footer>
   );
