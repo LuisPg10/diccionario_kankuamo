@@ -40,7 +40,6 @@ export default function Card({
             style={{ visibility: styleInfo.visibilityEnglish }}
             onClick={onClick}
             onMouseDown={() => soundEnglish.play()}
-
           >
             {english}
           </button>

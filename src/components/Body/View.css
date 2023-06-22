@@ -16,3 +16,11 @@ h2 {
   padding: 10px 10px 10px 25px;
   justify-content: left;
 }
+
+.link-style {
+  text-decoration: none;
+  outline: none;
+  border: 0;
+  background-color: transparent;
+  background-color: transparent;
+}

@@ -4,13 +4,10 @@ import spider from "../../images/Animals.png";
 import blue from "../../images/Colors.png";
 import number from "../../images/numbers.png";
 import body from "../../images/bodyparts.png";
-import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export default function Main() {
-  //Para Los Eventos de Los Botones.
-  const navigate = useNavigate();
-  const handleClick = (route) => {
-    navigate(route);
+  const handleClick = () => {
     window.scrollTo(0, 0);
   };
 
@@ -18,51 +15,61 @@ export default function Main() {
     <div>
       <h2> ¡ELIGE LA CATEGORÍA QUE DESEAS APRENDER!</h2>
       <div className="row row-cols-2 row-cols-md-4 g-0">
-        <Card
-          spanish={"Animales"}
-          kankuamo={"Ingresar"}
-          data={spider}
-          styleInfo={{
-            visibilityKankuamo: "visible",
-            visibilityEnglish: "hidden",
-            align: "center",
-          }}
-          onClick={() => handleClick('/Animales')}
-        />
-        <Card
-          spanish={"Colores"}
-          kankuamo={"Ingresar"}
-          data={blue}
-          styleInfo={{
-            visibilityKankuamo: "visible",
-            visibilityEnglish: "hidden",
-            align: "center",
-          }}
-          onClick={() => handleClick('/Colores')}
-        />
-        <Card
-          spanish={"Números"}
-          kankuamo={"Ingresar"}
-          data={number}
-          styleInfo={{
-            visibilityKankuamo: "visible",
-            visibilityEnglish: "hidden",
-            align: "center",
-          }}
-          onClick={() => handleClick('/Numeros')}
-        />
-        <Card
-          spanish={"Partes del cuerpo"}
-          kankuamo={"Ingresar"}
-          data={body}
-          styleInfo={{
-            visibilityKankuamo: "visible",
-            visibilityEnglish: "hidden",
-            align: "center",
-          }}
-          onClick={() => handleClick('/Cuerpo')}
-        />
+
+
+        <Link to={'/diccionario_kankuamo/animals'} className="card link-style" onClick={handleClick} >
+          <Card
+            spanish={"Animales"}
+            kankuamo={"Ingresar"}
+            data={spider}
+            styleInfo={{
+              visibilityKankuamo: "hidden",
+              visibilityEnglish: "hidden",
+              align: "center",
+            }}
+          />
+        </Link>
+
+        <Link to={'/diccionario_kankuamo/colors'} className="card link-style" onClick={handleClick} >
+          <Card
+            spanish={"Colores"}
+            kankuamo={"Ingresar"}
+            data={blue}
+            styleInfo={{
+              visibilityKankuamo: "hidden",
+              visibilityEnglish: "hidden",
+              align: "center",
+            }}
+          />
+        </Link>
+
+        <Link to={'/diccionario_kankuamo/numbers'} className="card link-style" onClick={handleClick} >
+          <Card
+            spanish={"Números"}
+            kankuamo={"Ingresar"}
+            data={number}
+            styleInfo={{
+              visibilityKankuamo: "hidden",
+              visibilityEnglish: "hidden",
+              align: "center",
+            }}
+            onClick={() => handleClick('/Numeros')}
+          />
+        </Link>
+
+        <Link to={'/diccionario_kankuamo/body'} className="card link-style" onClick={handleClick} >
+          <Card
+            spanish={"Partes del cuerpo"}
+            kankuamo={"Ingresar"}
+            data={body}
+            styleInfo={{
+              visibilityKankuamo: "hidden",
+              visibilityEnglish: "hidden",
+              align: "center",
+            }}
+          />
+        </Link>
       </div>
-    </div>
+    </div >
   );
 }
