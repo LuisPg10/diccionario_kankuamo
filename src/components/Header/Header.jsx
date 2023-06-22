@@ -15,18 +15,7 @@ export default function Header() {
           alt="Logo dictionary"
         />
 
-        {/* Esta es el formulario de busqueda */}
-        <form className="Search d-flex w-50 mx-auto" role="search">
-          <input
-            className="form-control me-2"
-            type="search"
-            placeholder="Digita Lo Que Quieres Buscar"
-            aria-label="Digita Lo Que Quieres Buscar"
-          />
-          <button className="btn btn-outline-success-search">
-            Buscar
-          </button>
-        </form>
+        <h1 className="Title-Header">Diccionario kankuamo</h1>
         {/* NavBar */}
         <nav className="navbar navbar-expand-lg navbar-dark">
           <div class="container-fluid">

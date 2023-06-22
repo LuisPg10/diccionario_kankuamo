@@ -39,3 +39,9 @@
   left: 25px;
   top: 5px;
 }
+
+.Title-Header {
+  background-color: #00682d;
+  color: white;
+  border: none;
+}
