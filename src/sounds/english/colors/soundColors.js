@@ -7,15 +7,7 @@ import white from "./White.wav";
 import yellow from "./Yellow.wav";
 //import yikanka from "./Yikanka.wav";
 
-const colors = [
-  white,
-  yellow,
-  blue,
-  orange,
-  purple,
-  black,
-  green,
-];
+const colors = [white, yellow, blue, orange, orange, purple, black, green];
 
 const soundColors = [];
 for (let i = 0; i <= colors.length; i++) {
