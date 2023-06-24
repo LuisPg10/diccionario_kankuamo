@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/diccionario_kankuamo/static/css/main.041886bb.css",
-    "main.js": "/diccionario_kankuamo/static/js/main.a3c2b911.js",
+    "main.js": "/diccionario_kankuamo/static/js/main.2a633bbb.js",
     "static/media/azul.jpg": "/diccionario_kankuamo/static/media/azul.99e8f676235aab9c078f.jpg",
     "static/media/violeta.jpg": "/diccionario_kankuamo/static/media/violeta.ceb07628bcca7dfa0a79.jpg",
     "static/media/rojo.jpg": "/diccionario_kankuamo/static/media/rojo.7d3b092c9ce2c5bd9066.jpg",
@@ -160,10 +160,10 @@
     "static/media/pierna.png": "/diccionario_kankuamo/static/media/pierna.0a2e948b9156e0f6da84.png",
     "index.html": "/diccionario_kankuamo/index.html",
     "main.041886bb.css.map": "/diccionario_kankuamo/static/css/main.041886bb.css.map",
-    "main.a3c2b911.js.map": "/diccionario_kankuamo/static/js/main.a3c2b911.js.map"
+    "main.2a633bbb.js.map": "/diccionario_kankuamo/static/js/main.2a633bbb.js.map"
   },
   "entrypoints": [
     "static/css/main.041886bb.css",
-    "static/js/main.a3c2b911.js"
+    "static/js/main.2a633bbb.js"
   ]
 }
