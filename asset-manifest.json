@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/diccionario_kankuamo/static/css/main.041886bb.css",
-    "main.js": "/diccionario_kankuamo/static/js/main.2a633bbb.js",
+    "main.js": "/diccionario_kankuamo/static/js/main.28317e42.js",
     "static/media/azul.jpg": "/diccionario_kankuamo/static/media/azul.99e8f676235aab9c078f.jpg",
     "static/media/violeta.jpg": "/diccionario_kankuamo/static/media/violeta.ceb07628bcca7dfa0a79.jpg",
     "static/media/rojo.jpg": "/diccionario_kankuamo/static/media/rojo.7d3b092c9ce2c5bd9066.jpg",
@@ -123,6 +123,7 @@
     "static/media/Green.wav": "/diccionario_kankuamo/static/media/Green.1b80130e10576126a82e.wav",
     "static/media/Ambiwua.wav": "/diccionario_kankuamo/static/media/Ambiwua.ee8f6453f0ac81b01cd7.wav",
     "static/media/One.wav": "/diccionario_kankuamo/static/media/One.9fa738c0e7fe67d03fa5.wav",
+    "static/media/Red.wav": "/diccionario_kankuamo/static/media/Red.cc9dfa268ad906b11389.wav",
     "static/media/Colors.png": "/diccionario_kankuamo/static/media/Colors.29c8af64f7603d34e000.png",
     "static/media/Chingua.wav": "/diccionario_kankuamo/static/media/Chingua.94fbdc0141ef7af81a9e.wav",
     "static/media/Four.wav": "/diccionario_kankuamo/static/media/Four.7e66351c2f24d035d78a.wav",
@@ -160,10 +161,10 @@
     "static/media/pierna.png": "/diccionario_kankuamo/static/media/pierna.0a2e948b9156e0f6da84.png",
     "index.html": "/diccionario_kankuamo/index.html",
     "main.041886bb.css.map": "/diccionario_kankuamo/static/css/main.041886bb.css.map",
-    "main.2a633bbb.js.map": "/diccionario_kankuamo/static/js/main.2a633bbb.js.map"
+    "main.28317e42.js.map": "/diccionario_kankuamo/static/js/main.28317e42.js.map"
   },
   "entrypoints": [
     "static/css/main.041886bb.css",
-    "static/js/main.2a633bbb.js"
+    "static/js/main.28317e42.js"
   ]
 }
