@@ -38,7 +38,7 @@ export default function Animals() {
     alakran,
     gallina,
     hormiga_negra,
-    guartina,
+    //guartina,
     buitre,
     gusano,
     comejen,
@@ -52,6 +52,6 @@ export default function Animals() {
     zorra,
     luciernaga,
     raton,
-    mariposa,
+    //mariposa,
   ];
 }

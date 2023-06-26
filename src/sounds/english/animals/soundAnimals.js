@@ -34,7 +34,7 @@ const animals = [
   scorpion,
   hen,
   blackAnt,
-  guartinaja,
+  //guartinaja,
   buzzard,
   worn,
   termite,

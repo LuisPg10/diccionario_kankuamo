@@ -35,7 +35,7 @@ const animals = [
   faki,
   gamusuri,
   gongo,
-  guardatinanja,
+  //guardatinanja,
   guenazo,
   ji,
   kandurano,
@@ -49,7 +49,7 @@ const animals = [
   zarma,
   sincabe,
   tukua,
-  sikuiri,
+  //sikuiri,
 ];
 
 const soundsAnimals = [];

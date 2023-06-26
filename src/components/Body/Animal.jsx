@@ -18,7 +18,7 @@ export default function Color() {
     "Alacrán",
     "Gallina",
     "Hormiga negra",
-    "Guartinaja",
+    //"Guartinaja",
     "Gallinazo",
     "Gusano",
     "Comejen",
@@ -32,7 +32,7 @@ export default function Color() {
     "Zorra",
     "Luciernaga",
     "Ratón",
-    "Mariposa",
+    //"Mariposa",
   ];
   const kankuamoInfo = [
     //"Bokokono",
@@ -46,7 +46,7 @@ export default function Color() {
     "Faki",
     "Gamüsuri",
     "Gongo",
-    "Guara",
+    //"Guara",
     "Guenazo",
     "Ji",
     "Kandurano",
@@ -60,7 +60,7 @@ export default function Color() {
     "Sarma",
     "Sinkábe",
     "Tuhkua",
-    "Ulsakúbi",
+    //"Ulsakúbi",
   ];
   const englishInfo = [
     //"Cricket",
@@ -74,7 +74,7 @@ export default function Color() {
     "Scorpion",
     "Hen",
     "Black ant",
-    "Guartinaja",
+    //"Guartinaja",
     "Buzzard",
     "Worn",
     "Termite",
@@ -88,10 +88,10 @@ export default function Color() {
     "Fox",
     "Firefly",
     "Mouse",
-    "Butterfly",
+    //"Butterfly",
   ];
 
-  for (let i = 0; i < 24; i++) {
+  for (let i = 0; i < 23; i++) {
     cards.push(
       <Card
         data={Animals()[i]}
